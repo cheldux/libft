@@ -6,12 +6,11 @@
 /*   By: thschnei <thschnei@student.42perpignan.fr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 16:06:06 by thschnei          #+#    #+#             */
-/*   Updated: 2024/11/07 14:44:39 by thschnei         ###   ########.fr       */
+/*   Updated: 2024/11/08 15:00:01 by thschnei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

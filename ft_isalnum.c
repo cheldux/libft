@@ -6,12 +6,13 @@
 /*   By: thschnei <thschnei@42perpignan.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:09:54 by thschnei          #+#    #+#             */
-/*   Updated: 2024/11/06 14:15:28 by thschnei         ###   ########.fr       */
+/*   Updated: 2024/11/08 15:02:03 by thschnei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_isalnum(int c)
 {
-	return (ft_isalpha(c) || ft_isnum(c));
+	return (ft_isalpha(c) || ft_isdigit(c));
 }

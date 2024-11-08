@@ -6,9 +6,10 @@
 /*   By: thschnei <thschnei@student.42perpignan.fr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:56:31 by thschnei          #+#    #+#             */
-/*   Updated: 2024/11/06 14:57:58 by thschnei         ###   ########.fr       */
+/*   Updated: 2024/11/08 15:00:46 by thschnei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int		ft_strlen(char *s)

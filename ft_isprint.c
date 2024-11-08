@@ -6,9 +6,10 @@
 /*   By: thschnei <thschnei@student.42perpignan.fr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:54:35 by thschnei          #+#    #+#             */
-/*   Updated: 2024/11/06 14:56:15 by thschnei         ###   ########.fr       */
+/*   Updated: 2024/11/08 14:59:30 by thschnei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_isprint(int c)

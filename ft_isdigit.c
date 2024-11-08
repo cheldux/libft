@@ -6,9 +6,10 @@
 /*   By: thschnei <thschnei@42perpignan.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:07:34 by thschnei          #+#    #+#             */
-/*   Updated: 2024/11/06 14:10:39 by thschnei         ###   ########.fr       */
+/*   Updated: 2024/11/08 14:59:24 by thschnei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_isdigit(int c)

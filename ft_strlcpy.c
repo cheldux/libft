@@ -6,7 +6,7 @@
 /*   By: thschnei <thschnei@student.42perpignan.fr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 14:45:42 by thschnei          #+#    #+#             */
-/*   Updated: 2024/11/07 14:50:00 by thschnei         ###   ########.fr       */
+/*   Updated: 2024/11/08 13:18:12 by thschnei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	size_t	cnt;
 
 	cnt = 0;
-	while (*dst)
-	{
-		dst++;
-		if (cnt < size)
-			cnt++;
-	}
 	while (*src && cnt < size - 1)
 	{
 		*dst++ = *src++;
